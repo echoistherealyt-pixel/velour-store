@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "STRIPE_SECRET_KEY": "@stripe_secret_key",
+    "NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY": "@stripe_publishable_key",
+    "PAYMOB_API_KEY": "@paymob_api_key",
+    "PAYMOB_INTEGRATION_ID_CARD": "@paymob_integration_id_card",
+    "PAYMOB_INTEGRATION_ID_WALLET": "@paymob_integration_id_wallet",
+    "PAYMOB_IFRAME_ID": "@paymob_iframe_id",
+    "PAYMOB_HMAC_SECRET": "@paymob_hmac_secret",
+    "NEXT_PUBLIC_SITE_URL": "@site_url"
+  }
+}

@@ -1,0 +1,18 @@
+/* styles/globals.css */
+:root {
+  --black: #0e0e0e;
+  --white: #faf9f7;
+  --cream: #f2efe8;
+  --accent: #c8a97e;
+  --accent-dark: #9a7a52;
+  --gray: #888;
+  --light-gray: #e8e4dc;
+  --red: #c0392b;
+  --green: #27ae60;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; }
+body { font-family: 'Barlow', sans-serif; }
+a { text-decoration: none; color: inherit; }
+button { cursor: pointer; }
